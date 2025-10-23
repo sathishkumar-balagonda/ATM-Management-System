@@ -12,7 +12,7 @@ public class DatabaseConnection {
         try {
             String url = "jdbc:mysql://localhost:3306/atmdb";
             String user = "root";
-            String password = "sathish@01";
+            String password = "*****";
 
             conn = DriverManager.getConnection(url, user, password);
             System.out.println("Connected Successfully to Database!");
@@ -24,4 +24,5 @@ public class DatabaseConnection {
         return conn;
     }
 }
+
 
